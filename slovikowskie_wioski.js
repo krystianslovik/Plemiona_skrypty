@@ -39,7 +39,7 @@ async function findVillages(tribeNames, filters) {
 
   // bez filtrowania
   // let villageList = villageData
-  //     .filter(village => playerIds.includes(village[4]))
+  //     .filter(village => playerIds.includes(village[4])) // tylko wioski graczy z plemion
   //     .map(village => `${village[2]}|${village[3]}`) // x|y
   //     .join(' ');
   let villageList = villageData
