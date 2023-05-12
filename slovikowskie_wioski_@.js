@@ -1,8 +1,11 @@
 // ==UserScript==
-// @name     SlovikoweWioski
-// @version  1.0
-// @grant    none
-// @include  https://*.plemiona.pl/*
+// @name         SlovikoweWioski
+// @version      0.2
+// @description  Pobierz listę wiosek z danych plemion
+// @author       slovik-
+// @match        https://*.plemiona.pl/game.php*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=plemiona.pl
+// @grant        none
 // ==/UserScript==
 
 window.addEventListener(
