@@ -40,7 +40,7 @@ async function findVillages(tribeNames, filters) {
   // bez filtrowania
   // let villageList = villageData
   //     .filter(village => playerIds.includes(village[4]))
-  //     .map(village => `${village[2]}|${village[3]}`)
+  //     .map(village => `${village[2]}|${village[3]}`) // x|y
   //     .join(' ');
   let villageList = villageData
     .filter((village) => playerIds.includes(village[4]))
